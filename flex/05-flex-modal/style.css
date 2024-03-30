@@ -48,6 +48,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: 110px;
 }
 
 button {
@@ -60,10 +61,35 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 42px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.message{
+  margin: 10px;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.header{
+  font-size: 18px;
+  font-weight: bold;
+  align-items: flex-start;
+}
+
+.icon{
+  align-items: flex-start;
+}
+
+.text{
+  max-width: 394px;
+  margin-left: 42px;
+  margin-bottom: 10px;
 }
